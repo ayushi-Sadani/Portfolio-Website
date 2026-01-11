@@ -64,37 +64,6 @@ Works on all modern browsers:
 - Safari
 - Edge
 
-## Customization Tips
-
-### Changing Colors
-Edit the CSS variables in `styles.css`:
-```css
-:root {
-    --primary-brown: #8b6f47;
-    --secondary-brown: #a67c52;
-    /* ... more colors */
-}
-```
-
-### Adding Your Photo
-Replace the icon in the About section with your image:
-```html
-<div class="image-placeholder">
-    <img src="your-photo.jpg" alt="Your Name">
-</div>
-```
-
-### Updating Projects
-Edit the project cards in the Projects section of `index.html`:
-- Change project titles and descriptions
-- Update technology tags
-- Add links to live demos and GitHub repos
-
-### Contact Form Integration
-To make the contact form functional:
-1. Sign up for a form service (e.g., Formspree, EmailJS)
-2. Add the action URL to the form
-3. Or integrate with backend API
 
 ## File Structure
 
@@ -119,26 +88,6 @@ This website uses Font Awesome icons (loaded via CDN).
 - Minimal external dependencies
 - Mobile-friendly
 
-## Future Enhancements
-
-Consider adding:
-- Dark mode toggle
-- Blog section
-- More project showcases
-- Testimonials section
-- Resume download button
-- Animation library (e.g., AOS, GSAP)
-
-## Support
-
-For issues or questions:
-- Check browser console for errors
-- Ensure all files are in the same directory
-- Verify internet connection (for Font Awesome icons)
-
-## License
-
-Feel free to use this template for your personal portfolio!
 
 ---
 
